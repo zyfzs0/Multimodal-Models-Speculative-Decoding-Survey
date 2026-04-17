@@ -105,8 +105,6 @@ If you find this repository or the accompanying survey useful in your research, 
 
 ·    **[IEEE TMC 2026]** EdgeSD: Efficient Speculative Decoding with Vision-Decoding Disaggregation for MLLM Inference in Edge-Cloud Networks [[Paper]](https://www.computer.org/csdl/journal/tm/5555/01/11409366/2en88JF5foI)
 
-·    **[ICLR 2026 Withdrawn Submission]** STAR: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation [[Paper]](https://openreview.net/pdf?id=pMdKnxkFRw)
-
 
 ### Autoregressive Text‑to‑Image Generation
 
