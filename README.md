@@ -5,7 +5,6 @@
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 <h5 align="center">
 
-
 # Awesome Multimodal Speculative Decoding
 
 A curated list of research papers on **speculative decoding** for multimodal models, including vision‑language systems, autoregressive text‑to‑image generators, video large language models, vision‑language‑action models and point‑cloud synthesis.
@@ -27,6 +26,10 @@ Speculative decoding is a technique aimed at reducing the inference latency of a
  Readers are encouraged to browse the paper list below to explore current efforts in this fast‑growing area.
 
 
+## 📖 Table of Contents
+
+
+
 
 ## 📝 Citation
 
@@ -45,6 +48,7 @@ If you find this repository or the accompanying survey useful in your research, 
 
 
 
+
 ## 📖 Table of Contents
 
 
@@ -55,6 +59,10 @@ If you find this repository or the accompanying survey useful in your research, 
   - [Video Large Language Models (Video + Text)](#video-large-language-models-video--text)
 
   - [Vision-Language-Action Models (Image + Text + Action)](#visionlanguageaction-models-image--text--action)
+
+  - [Speech & Audio](#speech--audio)
+
+  - [Diffusion Models](#diffusion-models)
 
   - [Point Cloud](#point-cloud)
 
@@ -90,6 +98,15 @@ If you find this repository or the accompanying survey useful in your research, 
 
 ·    **[ArXiv 2025.10]** Small Drafts, Big Verdict: Information‑Intensive Visual Reasoning via Speculation [[Paper\]](https://arxiv.org/pdf/2510.20812)
 
+·    **[ArXiv 2026.02]** HSD: Training-Free Acceleration for Document Parsing Vision-Language Model with Hierarchical Speculative Decoding [[Paper]](https://arxiv.org/pdf/2602.12957)
+
+·    **[Findings of EACL 2026]** TABED: Test-Time Adaptive Ensemble Drafting for Robust Speculative Decoding in LVLMs [[Paper]](https://aclanthology.org/2026.findings-eacl.205.pdf)
+
+·    **[ArXiv 2026.02]** SAGE: Accelerating Vision-Language Models via Entropy-Guided Adaptive Speculative Decoding [[Paper]](https://arxiv.org/pdf/2602.00523)
+
+·    **[IEEE TMC 2026]** EdgeSD: Efficient Speculative Decoding with Vision-Decoding Disaggregation for MLLM Inference in Edge-Cloud Networks [[Paper]](https://www.computer.org/csdl/journal/tm/5555/01/11409366/2en88JF5foI)
+
+·    **[ICLR 2026 Withdrawn Submission]** STAR: Speculative Decoding with Searchable Drafting and Target-Aware Refinement for Multimodal Generation [[Paper]](https://openreview.net/pdf?id=pMdKnxkFRw)
 
 
 ### Autoregressive Text‑to‑Image Generation
@@ -112,6 +129,11 @@ If you find this repository or the accompanying survey useful in your research, 
 
 ·    **[ArXiv 2025.11]** VVS: Accelerating Speculative Decoding for Visual Autoregressive Generation via Partial Verification Skipping [[Paper\]](https://arxiv.org/pdf/2511.13587)
 
+·    **[ArXiv 2026.03]** SJD-PV: Speculative Jacobi Decoding with Phrase Verification for Autoregressive Image Generation [[Paper]](https://arxiv.org/pdf/2603.06666)
+
+·    **[ArXiv 2024.11]** Continuous Speculative Decoding for Autoregressive Image Generation [[Paper]](https://arxiv.org/pdf/2411.11925v1)
+
+·    **[ArXiv 2026.01]** Multi-Scale Local Speculative Decoding for Image Generation [[Paper]](https://arxiv.org/pdf/2601.05149)
 
 
 ### Video Large Language Models (Video + Text)
@@ -120,14 +142,46 @@ If you find this repository or the accompanying survey useful in your research, 
 
 ·    **[EMNLP 2025]** SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier‑Guided Token Pruning [[Paper\]](https://aclanthology.org/2025.emnlp-main.366.pdf) [[Code\]](https://github.com/zju-jiyicheng/SpecVLM)
 
+·    **[ArXiv 2026.01]** FastV-RAG: Towards Fast and Fine-Grained Video QA with Retrieval-Augmented Generation [[Paper]](https://arxiv.org/pdf/2601.01513)
+
+·    **[ArXiv 2026.01]** HIPPO: Accelerating Video Large Language Models Inference via Holistic-aware Parallel Speculative Decoding [[Paper]](https://arxiv.org/pdf/2601.08273)
+
+·    **[ArXiv 2026.02]** Sparrow: Text-Anchored Window Attention with Visual-Semantic Glimpsing for Speculative Decoding in Video LLMs [[Paper]](https://arxiv.org/pdf/2602.15318)
 
 
 ### Vision‑Language‑Action Models (Image + Text + Action)
 
-·    **[ArXiv 2025]** Spec‑VLA: Speculative Decoding for Vision‑Language‑Action Models with Relaxed Acceptance [[Paper\]](https://arxiv.org/pdf/2511.05250)
+·    **[ArXiv 2025.07]** Spec‑VLA: Speculative Decoding for Vision‑Language‑Action Models with Relaxed Acceptance [[Paper\]](https://arxiv.org/pdf/2507.22424)
 
 ·    **[ArXiv 2025.09]** SpecPrune‑VLA: Accelerating Vision‑Language‑Action Models via Action‑Aware Self‑Speculative Pruning [[Paper\]](https://arxiv.org/pdf/2509.05614)
 
+·    **[ArXiv 2026.03]** KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models [[Paper]](https://arxiv.org/pdf/2603.01581) 
+
+·    **[ArXiv 2026.03]** HeiSD: Hybrid Speculative Decoding for Embodied Vision-Language-Action Models with Kinematic Awareness [[Paper]](https://arxiv.org/pdf/2603.17573)
+
+
+### Speech & Audio
+
+·    **[INTERSPEECH 2025]** Accelerating Autoregressive Speech Synthesis Inference With Speech Speculative Decoding [[Paper]](https://www.isca-archive.org/interspeech_2025/lin25h_interspeech.pdf)
+
+·    **[ArXiv 2025.07]** SpecASR: Accelerating LLM-based Automatic Speech Recognition via Speculative Decoding [[Paper]](https://arxiv.org/pdf/2507.18181)
+
+·    **[INTERSPEECH 2025]** Simultaneous Masked and Unmasked Decoding with Speculative Decoding Masking for Fast ASR without Accuracy Loss [[Paper]](https://www.isca-archive.org/interspeech_2025/okabe25_interspeech.pdf)
+
+·    **[ArXiv 2024.10]** Accelerating Codec-based Speech Synthesis with Multi-Token Prediction and Speculative Decoding [[Paper]](https://arxiv.org/pdf/2410.13839)
+
+·    **[ArXiv 2026.03]** Edge-Cloud Collaborative Speech Emotion Captioning via Token-Level Speculative Decoding in Audio-Language Models [[Paper]](https://arxiv.org/pdf/2603.11397)
+
+·    **[ArXiv 2026.03]** Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts [[Paper]](https://arxiv.org/pdf/2603.11243v1)
+
+
+### Diffusion Models
+
+·    **[ICML 2025]** Accelerated Diffusion Models via Speculative Sampling [[Paper]](https://arxiv.org/pdf/2501.05370)
+
+·    **[ArXiv 2025.09]** SpeCa: Accelerating Diffusion Transformers with Speculative Feature Caching [[Paper]](https://arxiv.org/pdf/2509.11628)
+
+·    **[ArXiv 2025.05]** Diffusion Models are Secretly Exchangeable: Parallelizing DDPMs via Autospeculation [[Paper]](https://arxiv.org/pdf/2505.03983)
 
 
 ### Point Cloud
