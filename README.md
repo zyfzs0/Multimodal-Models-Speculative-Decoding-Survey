@@ -26,10 +26,9 @@ Speculative decoding is a technique aimed at reducing the inference latency of a
  Readers are encouraged to browse the paper list below to explore current efforts in this fast‑growing area.
 
 
-## 📖 Table of Contents
-
-
-
+<p align="center">
+  <img src="assets/All_structures.png" width="600"/>
+</p>
 
 ## 📝 Citation
 
